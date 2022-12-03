@@ -67,33 +67,51 @@ html, body {
   background-position: center;
 }
 
-.center {
-    width: 800px;
+div {
+	flex-flow: inherit;
+}
+
+.center{
+    width: 440px;
 	padding: 5%;
     margin: 50px auto;
- 	background: mediumpurple; /*this uses opacity of 75% for the background color*/
+ 	background: rgba(255, 228, 225, 0.55); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px ridge;
+	/*border: 4px ridge;*/
+	border-radius: 20px 45px;
 }
-   
-#logo {
-    margin-bottom: 16px;
+
+.center:hover {
+	background: rgba(255, 228, 181, 0.50);
+	border-radius: 50%;
+	box-shadow:
+		1px 1px rgba(102, 51, 153, 0.5),
+		2px 2px rgba(102, 51, 153, 0.5),
+		3px 3px rgba(102, 51, 153, 0.5);
+	-webkit-transform: translateX(-3px);
+	transform: translateX(-3px);
+
+}
+
+.logo {
+    margin-bottom: -50px;
 	/*border: 3px dashed red;*/
 	text-align: center;
+	padding: 5%;
 }
 
 h1 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: black;
 }
 
 h2 {
 	font-family: 'Source Code Pro', monospace;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: black;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -110,8 +128,8 @@ nav{
 	font-size: 1.2em;
 	width: 400px; /* This is the width of the nav element */
 	margin: 0 auto; /* This centers the entire nav element inside the center div */
-	border: inset turquoise;
-	border-width: 3px 0; /* This puts a 3 pixel border on top and bottom of the nav element, the zero eliminates the left and right sides of the border */
+	border-width: 3px; /* This puts a 3 pixel border on top and bottom of the nav element, the zero eliminates the left and right sides of the border */
+	background: rgba(102, 51, 153, 0.45);
 	text-align: center;
 	margin-top: 2em; /* This adds a bit of space above the nav element */
 }
@@ -126,7 +144,7 @@ nav a{
 }
 
 a{
-	color: #444;
+	color: mediumblue;
 	text-decoration: none; /* This removes the unerline */
 	font-weight: bold;
 }
