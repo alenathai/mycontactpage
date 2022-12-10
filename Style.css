@@ -1,0 +1,87 @@
+/* This is temporary. Edit after you put in the contents. */
+.CoverFormerLetters {
+	background-image: linear-gradient(to bottom right, #DFEDF2, #5CACD0, #59A8D9);
+}
+
+.NewText {
+	background-image: linear-gradient(#F2E6D8, #D9C6B0, #D9AE5F);
+}
+
+.OtherTexts {
+	background-image: linear-gradient(#F2D5CE, #F2AFA0, #F25C5C);
+}
+
+.WorksCited {
+	background-image: linear-gradient(#E8F2EA, #C5D9C7, #5D9D61);
+}
+
+h1 {
+	color: rebeccapurple;
+	margin-left: 20px;
+}
+
+.top {
+	margin-top: 2%;
+}
+
+h2 {
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: justify;
+}
+
+.h2Exception {
+	text-align: center;
+}
+
+.CLbutton {
+	background-color: lightpink;
+	font-size: 1.5em;
+	width: 15%;
+	border-radius: 50px;
+	padding: 0.5%;
+}
+
+.NTbutton {
+	background-color: lightpink;
+	font-size: 1.5em;
+	width: 50%;
+	border-radius: 50px;
+}
+
+.OTbutton {
+	background-color: lightpink;
+	font-size: 1.5em;
+	width: 45%;
+	border-radius: 50px;
+}
+
+.WCbutton {
+	background-color: lightpink;
+	font-size: 1.5em;
+	width: 25%;
+	border-radius: 50px;
+}
+
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+}
+
+a {
+	color: black; /*change*/
+	text-decoration: none;
+}
+
+a:hover {
+	color: rebeccapurple;
+}
+
+ul {
+	list-style-position: inside;
+}
